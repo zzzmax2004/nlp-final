@@ -1,0 +1,17 @@
+[project]
+name = "nlp-final"
+version = "0.1.0"
+description = "ModernBERT-based multi-target regression for subjective Q&A quality labeling"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.12.0",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.0.0",
+    "pandas>=2.3.3",
+    "pip>=25.3",
+    "scikit-learn>=1.7.2",
+    "torch>=2.9.1",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.3",
+]
